@@ -1,19 +1,14 @@
-# bulk-website-screenshots
+# Bulk Website Screenshots (Headless Chrome)
 Bulk Website Screenshots will automate the task of converting a list of website URLs into screenshots of each website. Bulk Website Screenshots Google Chrome's command line interface, or Headless Chrome (it is headless because it does not have a GUI, the head) to take the screenshots.
 
-Author: Ryan Huang
+**Requirements:**
+ * MacOS, Linux or Windows (you need to configure path to Chrome for Linux and Windows)
+  * PHP 7/8
+  * Google Chrome 59+
 
-Project:
-Bulk Website Screenshots (Headless Chrome)
-
-Description:
-Bulk Website Screenshots will automate the task of converting a list of website URLs into screenshots of each website. Bulk Website Screenshots Google Chrome's command line interface, or Headless Chrome (it is headless because it does not have a GUI, the head) to take the screenshots.
-
-Requirements:
-- MacOS, Linux or Windows (you need to configure path to Chrome for Linux and Windows)
-- PHP 7/8
-- Google Chrome 59+
 This script was created and tested with MacOS Big Sur (11.5.2), PHP (8.0.9) and Google Chrome (94.0.4606.81).
 
-RUN THIS COMMAND:
-php screenshot-shell-generator.php > create-screenshots.sh && sh create-screenshots.sh 
+**Instructions:**
+Please run this command.
+
+    php screenshot-shell-generator.php > create-screenshots.sh && sh create-screenshots.sh 
