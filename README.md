@@ -9,6 +9,9 @@ Bulk Website Screenshots will automate the task of converting a list of website 
 This script was created and tested with MacOS Big Sur (11.5.2), PHP (8.0.9) and Google Chrome (94.0.4606.81).
 
 **Instructions:**
-Please run this command.
 
-    php screenshot-shell-generator.php > create-screenshots.sh && sh create-screenshots.sh 
+ 1. Open screenshot-shell-generator.php and add your list of URLs to $domain variable.
+ 2. Please run this command:
+
+    > php screenshot-shell-generator.php > create-screenshots.sh && sh
+    > create-screenshots.sh
