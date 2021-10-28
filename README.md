@@ -2,7 +2,7 @@
 Bulk Website Screenshots will automate the task of converting a list of website URLs into screenshots of each website. Bulk Website Screenshots Google Chrome's command line interface, or Headless Chrome (it is headless because it does not have a GUI, the head) to take the screenshots.
 
 **Requirements:**
- * MacOS, Linux or Windows (you need to configure path to Chrome for Linux and Windows)
+ * MacOS, Windows or Linux (you need to configure path to Chrome for Windows and Linux, and install coreutils for Linux on your own)
   * PHP 7/8
   * Google Chrome 59+
   * coreutils
