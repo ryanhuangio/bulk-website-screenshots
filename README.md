@@ -12,6 +12,7 @@ This script was created and tested with MacOS Big Sur (11.5.2), PHP (8.0.9) and 
 **Instructions:**
 
  1. Install coreutils
+
     with Homebrew on MacOS:
     > brew install coreutils
     
