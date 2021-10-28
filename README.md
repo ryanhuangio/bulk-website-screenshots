@@ -11,11 +11,11 @@ This script was created and tested with MacOS Big Sur (11.5.2), PHP (8.0.9) and 
 
 **Instructions:**
 
- 1. Install coreutils with
-    MacOS:
+ 1. Install coreutils
+    with Homebrew on MacOS:
     > brew install coreutils
     
-    Windows (Chocolatey package manager required):
+    with Chocolatey on Windows:
     > choco install gnuwin32-coreutils.install
  2. Open screenshot-shell-generator.php and add your list of URLs to $domain variable.
  3. Please run this command:
