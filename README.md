@@ -18,7 +18,7 @@ This script was created and tested with MacOS Big Sur (11.5.2), PHP (8.0.9) and 
     
     with Chocolatey on Windows:
     > choco install gnuwin32-coreutils.install
- 2. Open screenshot-shell-generator.php and add your list of URLs to $domain variable.
+ 2. Open screenshot-shell-generator.php and add your list of URLs to $URLs variable.
  3. Please run this command:
 
     > php screenshot-shell-generator.php > create-screenshots.sh && sh
